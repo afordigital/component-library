@@ -6,13 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "test": "vitest --watch",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@testing-library/react": "^14.0.0",
     "@unocss/reset": "^0.56.5",
     "antd": "^5.10.3",
     "react": "^18.2.0",
@@ -27,6 +27,8 @@
     "@storybook/react": "7.5.2",
     "@storybook/react-vite": "7.5.2",
     "@storybook/testing-library": "0.2.2",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0",
     "@types/node": "^20.8.10",
     "@types/react": "^18.2.25",
     "@types/react-dom": "^18.2.10",
@@ -36,9 +38,11 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "eslint-plugin-storybook": "^0.6.15",
+    "jsdom": "^22.1.0",
     "storybook": "7.5.2",
     "typescript": "^5.2.2",
     "unocss": "^0.56.5",
+    "unocss-preset-token": "^0.0.1",
     "vite": "^4.4.5",
     "vitest": "^0.34.6"
   }

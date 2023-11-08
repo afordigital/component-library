@@ -14,3 +14,5 @@ const Button = (props: ButtonProps) => {
 }
 
 export default Button
+
+// const Button = (props) => { return <AntdButton onClick={props.disabled ? () => {} : props.onClick} }
